@@ -17,7 +17,7 @@ public class 확인용 {
 		double r=sc.nextDouble();
 		
 		//결과
-		System.out.println("구의 부피는: "+((double)(4/3)*p*(r*r*r))+" 입니다.");
+		System.out.println("구의 부피는: "+((double)4/3)*p*(r*r*r)+" 입니다.");
 		
 		sc.close();
 
