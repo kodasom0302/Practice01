@@ -8,11 +8,11 @@ long형 변수를 사용하여 빛이 1년동안 진행하는 거리를 계산�
 
 	public static void main(String[] args) {
 		
-		long s=300000;
+		long speed=300000L;
 		
-		long km=(60*60*24*365*s);
+		long distance=(60*60*24*365*speed);
 		
-		System.out.println("빛이 1년 동안 가는 거리는 "+km+"km 입니다.");
+		System.out.println("빛이 1년 동안 가는 거리는 "+distance+"km 입니다.");
 
 	}
 */

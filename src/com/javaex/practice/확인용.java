@@ -6,20 +6,11 @@ public class 확인용 {
 
 	public static void main(String[] args) {
 		
-		final double p=3.14;
+		long s=300000L;
 		
-		Scanner sc=new Scanner(System.in);
+		long distance=(60*60*24*365*s);
 		
-		//반지름
-		System.out.print("반지름: ");
-		
-		//입력
-		double r=sc.nextDouble();
-		
-		//결과
-		System.out.println("구의 부피는: "+((double)4/3)*p*(r*r*r)+" 입니다.");
-		
-		sc.close();
+		System.out.println("빛이 1년 동안 가는 거리는 "+distance+"km 입니다.");
 
 	}
 
